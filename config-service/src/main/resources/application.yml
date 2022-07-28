@@ -1,0 +1,12 @@
+server:
+  port: 8081
+Spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: eureka
+          uri: https://github.com/franklinconde1/config-service.git
+          search-paths: config-data
+  application:
+    name: config-service
