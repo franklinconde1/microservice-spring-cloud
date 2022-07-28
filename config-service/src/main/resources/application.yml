@@ -6,7 +6,7 @@ Spring:
       server:
         git:
           default-label: eureka
-          uri: https://github.com/franklinconde1/config-service.git
+          uri: https://github.com/franklinconde1/microservice-spring-cloud.git
           search-paths: config-data
   application:
     name: config-service
