@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: multiple-instances
+          default-label: gateway
           uri: https://github.com/franklinconde1/microservice-spring-cloud.git
           search-paths: config-data
   application:
