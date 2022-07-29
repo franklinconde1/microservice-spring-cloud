@@ -1,4 +1,4 @@
-server.port: 8001
+server.port: ${spring.application.name}:${spring.application.instance_id:${randon.value}}
 spring:
   application:
     name: user
